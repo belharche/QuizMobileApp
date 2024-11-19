@@ -1,3 +1,3 @@
 package com.bra.quizapp
 
-data class Question(val id: Int, val name: String)
+data class Question(val text: String, val options: List<String>, val correctOptionIndex: Int)
